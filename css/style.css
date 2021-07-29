@@ -35,7 +35,7 @@ body {
 /*=================================
     featured bike section style
     ===============================*/
-.bike-small-header {
+.bike-small-header, .modal {
     color: #E76F51;
     font-weight: 600;
 }
