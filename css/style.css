@@ -1,0 +1,95 @@
+/* importing google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ==================
+    Common styles 
+   ================== */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*===========================
+    top banner section style 
+    ===========================*/
+.top-banner-bg {
+    background-color: #264653;
+}
+.top-banner-p {
+    font-weight: 300;
+    font-size: 14px;
+}
+.top-banner-p-2 {
+    font-weight: 300;
+    font-size: 16px;
+    width: 87%;
+}
+.top-banner-button {
+    background-color: #E76F51;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 45px;
+    color: white;
+}
+
+/*=================================
+    featured bike section style
+    ===============================*/
+.bike-small-header {
+    color: #E76F51;
+    font-weight: 600;
+}
+.gray-bike {
+        filter: gray; /* IE6-9 */
+        -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+        filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+/*================================
+    happy clients section style 
+    =================================*/
+
+.bi-star-fill, .bi-star {
+    color: #E77C40;
+}
+.client-header, .faq-header {
+    margin-top: 10rem;
+    
+}
+.client-header h1, .faq-header h1 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.client-header span, .faq-header span, 
+.bike-name, .best-bike-header span {
+    color: #E76F51;
+}
+.accordion-item {
+    border-radius: 20px;
+}
+
+/* =============================
+    bike carousel section style  
+===================================*/
+.carousel-img {
+    width: 80%;
+    background: linear-gradient(to right, #556270, #ff6b6b);
+}
+
+/* =============================
+    subscribe section style  
+   ==============================*/
+.subscribe {
+    margin-top: 10rem;
+}
+.bikeletter-color {
+    color: coral;
+    font-weight: 600;
+}
+/* =========================
+    footer section style 
+ =============================*/
+footer { 
+    margin-top: 8rem;
+}
