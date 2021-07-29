@@ -82,6 +82,9 @@ body {
 /* =============================
     bike carousel section style  
 ===================================*/
+.carousel {
+    border-radius: 20px;
+}
 .carousel-img {
     width: 80%;
     background: linear-gradient(to right, #556270, #ff6b6b);
@@ -92,6 +95,10 @@ body {
    ==============================*/
 .subscribe {
     margin-top: 10rem;
+    background-image: url("../images/Rectangle\ 25.png");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    
 }
 .bikeletter-color {
     color: coral;
