@@ -14,11 +14,19 @@ body {
 .top-banner-bg {
     background-color: #264653;
 }
+.modal {
+    color: #E76F51;
+    font-weight: 500;
+}
 .top-banner-p {
     font-weight: 300;
     font-size: 14px;
 }
+.top-banner-header {
+    font-weight: 600;
+}
 .top-banner-p-2 {
+    color: #E0E0E0;
     font-weight: 300;
     font-size: 16px;
     width: 87%;
@@ -35,9 +43,12 @@ body {
 /*=================================
     featured bike section style
     ===============================*/
-.bike-small-header, .modal {
+.bike-small-header {
     color: #E76F51;
     font-weight: 600;
+    border-bottom: 2px solid #E76F51;
+    border-spacing: 10px;
+    
 }
 .gray-bike {
         filter: gray; /* IE6-9 */
